@@ -2,8 +2,8 @@
 
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.app4"  
-     version  = "1.0.0"  
+     id    = "com.phonegap.app3"  
+     version  = "1.0.0">  
 	 
    <name> app4- dia internacional de la madre tierra</name>  
    
@@ -11,7 +11,7 @@
      Aplicacion que muestra informacion sobre el dia internacional de la madre tierra
    </description>  
    
-   <author href="https://build.phonegap.com" email="cb16.romero.gonzalez.carlos@gmail.com">  
+   <author href="https://build.phonegap.com" email="cr202129@gmail.com">  
        Carlos Alfredo Romero Gonzalez
    </author>  
     
@@ -33,7 +33,7 @@
  <allow-intent href="https://*/*"/>
  <acces origin="https://*/*"/>
  <allow-intent href="http://*/*"/>
- <acces origin="http://*/*"/>
+ <access origin="http://*/*"/>
  <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 
