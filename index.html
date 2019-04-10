@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-initial-scale=1">
 <!---- Grupo css --->
 <link rel="stylesheet" href="css/app4.min.css" />
-<link rel="stylesheet" href="css/jquery.mobile.icons.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
 <link rel="stylesheet" href="css/theme.app4.min.css" />
 <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
 
@@ -18,9 +18,32 @@
 <link rel="stylesheet" href="css/sldr.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jsplug.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
 
-<body>
+<body onLoad="MM_preloadImages('imagenes/madre-2.jpg','imagenes/madre-4.jpg')">
     <div data-role="page" id="Principal" data-theme="a">
     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
     <h1>Dia internacional de la madre tierra 22 de abril</h1>
@@ -112,10 +135,16 @@
     </div>
     <center>
     <div data-role="main" class="ui-content">
-	<p>n programa de salud es un conjunto de acciones implementadas por un gobierno con el objetivo de mejorar las condiciones sanitarias de la población. De esta forma, las autoridades promueven campañas de prevención y garantizan el acceso democrático y masivo a los centros de atención.Por lo general, un programa de salud consta de diversas partes. En principio, se plantea una introducción, con los antecedentes y la misión que cumplirá el programa. Después se realiza un diagnóstico de la situación actual, que puede incluir una síntesis de evaluación de planes similares que se hayan desarrollado con anterioridad.Entre los objetivos fundamentales del lanzamiento de un programa de salud se encuentran la prevención de todo tipo de enfermedades y el eficaz desempeño de los profesionales en las respectivas áreas de salud.</p>
+	<p>En 1992, más de 178 países firmaron la Agenda 21, la Declaración de Río sobre el Medio Ambiente y el Desarrollo, y la Declaración de Principios para la Gestión Sostenible de los Bosques en la Conferencia de Naciones Unidas sobre el Medio Ambiente y el Desarrollo (UNCED), que tuvo lugar en Río de Janeiro (Brasil) del 3 y el 14 de junio de 1992.
+
+En el año 2005, la Asamblea General declaró 2008 como el Año Internacional del Planeta Tierra para promover la enseñanza de las ciencias de la Tierra para facilitar a la humanidad los instrumentos necesarios para el uso sostenible de los recursos naturales y para construir la infraestructura científica esencial para el desarrollo sostenible.
+
+En 2012 se celebró la Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible, también conocida como Rio+20. Como resultado, se elaboró un documento que contenía medidas y prácticas para implementar un desarrollo sostenible. Además, en Río, los Estados Miembros decidieron emprender un proceso para establecer los Objetivos de Desarrollo Sostenible (ODS), que se basarían en los Objetivos de Desarrollo del Milenio y coincidirían con la Agenda para el desarrollo después de 2015.</p>
     </div>
     </center>
     <center>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/madre-2.jpg',1)"><img src="imagenes/madre-1.jpg" width="481" height="437" id="Image15"></a>
+
     <div data-role="main" class="ui-content" align="center" >
     <div style="width:30;">
     <ul data-role="controlgroup" data-type="vertical" data-theme="a">
@@ -135,3 +164,134 @@
       </div>
       </div>
     
+    <!---Pagina 2-->
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Historia del dia?</h1>
+    </div>
+    <center>
+    <div data-role="main" class="ui-content">
+	<p>En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para una asamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre los efectos del deterioro ambiental en la salud humana.2​ Este fue el primer antecedente del Día de la Tierra. Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra.3​ Surgieron otros esfuerzos como Survival Project (Proyecto para la Supervivencia), uno de los primeros eventos educacionales de conciencia ambiental, que fue llevado a cabo en la Universidad Northwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970.</p>
+    </div>
+    </center>
+    <center>
+    <img src="imagenes/madre-5.jpg" width="60%" height="60%">
+<div data-role="main" class="ui-content" align="center" >
+  <div style="width:30;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_la_Madre_Tierra" data-role="button">
+    <h4>ver mas</h4>
+    </a>
+    </li>
+    </ul>
+    </div>
+  </div>
+    </center>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed" >
+    <div>
+    <h4>Carlos Alfredo Romero Gonzalez</h4>	<img src="imagenes/mdpi.png" width="46" height="46">
+      </div>
+      </div>
+      </div>
+      
+      <!---Pagina 3-->
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>La tierra que abitamos</h1>
+    </div>
+    <center>
+    <div data-role="main" class="ui-content">
+	<p>Hay un hilo muy fino, pero perceptible, que liga a muchas novelas que han usado a Extremadura como trasfondo; histórico, geográfico o sentimental. Un relato de terrenos duros, de supervivencia costosa y gentes (en apariencia) simples y (por fuerza) abnegadas. En realidad, un perfecto ejemplo, hecho de tierra y carne, de una sociedad aún anclada en servidumbres herrumbrosas y miedos atávicos. Lo que nos cuentan los inocentes de Delibes, el Duarte de Cela o las yermas Hurdes sin pan, conformó durante años la semblanza y critica descripción que devino en definición de una zona del país que resultaba, por ajenidad, incomprendida.</p>
+    </div>
+    </center>
+    <center>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/madre-4.jpg',1)"><img src="imagenes/madre-3.jpg" width="847" height="480" id="Image16"></a>
+<div data-role="main" class="ui-content" align="center" >
+  <div style="width:30;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://www.elperiodicoextremadura.com/noticias/opinion/tierra-habitamos_951168.html" data-role="button">
+    <h4>ver mas</h4>
+    </a>
+    </li>
+    </ul>
+    </div>
+  </div>
+    </center>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed" >
+    <div>
+    <h4>Carlos Alfredo Romero Gonzalez</h4>	<img src="imagenes/mdpi.png" width="46" height="46">
+      </div>
+      </div>
+      </div>
+      
+      <!---Pagina 4-->
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Dialogo sobre la armonia</h1>
+    </div>
+    <center>
+    <div data-role="main" class="ui-content">
+	<p>Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día, asumimos, además, la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra”, apunta Naciones Unidas a propósito de la fecha que será tomada en cuenta el próximo domingo en todo el mundo.
+
+¿Qué destaca esta declaración de Río que sale a flote cada 22 de abril?
+
+El principio uno hace referencia a que los seres humanos constituyen el centro de las preocupaciones relacionadas con el desarrollo sostenible y por tanto tienen derecho a una vida saludable y productiva en armonía con la naturaleza.</p>
+    </div>
+    </center>
+    <center>
+    <img src="imagenes/madre-6.jpg" width="580" height="290">
+<div data-role="main" class="ui-content" align="center" >
+  <div style="width:30;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://listindiario.com/la-vida/2018/04/19/511240/armonia-en-la-madre-tierra" data-role="button">
+    <h4>ver mas</h4>
+    </a>
+    </li>
+    </ul>
+    </div>
+  </div>
+    </center>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed" >
+    <div>
+    <h4>Carlos Alfredo Romero Gonzalez</h4>	<img src="imagenes/mdpi.png" width="46" height="46">
+      </div>
+      </div>
+      </div>
+      
+      <!---Pagina 5-->
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Hacia una tierra sostenible</h1>
+    </div>
+    <center>
+    <div data-role="main" class="ui-content">
+	<p>La gestión integrada de paisajes requiere comprender los diferentes impactos del uso de la tierra y equilibrar los intereses a menudo contradictorios de los diferentes grupos involucrados.
+
+Imaginemos que usted forma parte del gobierno del país X en África subsahariana. Desea cumplir con el Objetivo de Desarrollo Sostenible No. 1 que reza: “acabar con la pobreza en todas sus formas en todas partes". 
+
+Sin embargo, es consciente de la necesidad de implementar todos los 17 Objetivos, incluido el Objetivo 15, que busca: "Gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad.”</p>
+    </div>
+    </center>
+    <center>
+    <img src="imagenes/madre-7.jpg" width="300" height="200">
+<div data-role="main" class="ui-content" align="center" >
+  <div style="width:30;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://www.unenvironment.org/es/news-and-stories/reportajes/como-podemos-usar-nuestra-tierra-de-manera-sostenible" data-role="button">
+    <h4>ver mas</h4>
+    </a>
+    </li>
+    </ul>
+    </div>
+  </div>
+    </center>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed" >
+    <div>
+    <h4>Carlos Alfredo Romero Gonzalez</h4>	<img src="imagenes/mdpi.png" width="46" height="46">
+      </div>
+      </div>
+      </div>
